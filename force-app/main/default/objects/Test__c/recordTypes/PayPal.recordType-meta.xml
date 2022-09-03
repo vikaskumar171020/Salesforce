@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PayPal</fullName>
+    <active>true</active>
+    <label>PayPal</label>
+    <picklistValues>
+        <picklist>Available_Payment_Method__c</picklist>
+        <values>
+            <fullName>Paypal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Available_Payment_Type__c</picklist>
+        <values>
+            <fullName>Instant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schedule</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
